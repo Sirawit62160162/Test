@@ -2,13 +2,6 @@ import 'package:mysql1/mysql1.dart';
 
 // ดึงข้อมูล
 class Mysql{
-  // ทดลองเชื่อมต่อ Database
-  static String host = '10.80.6.161',       // ชื่อ hostname:   ? <ไม่รู้>
-                user = 'team5',             // ชื่อ username:   team5
-                password = 'team5@2021',    // รหัส password:  team5@2021
-                db = 'team5';               // ชื่อฐานข้อมูล:     team5
-  static int port = 3306;                   // หมายเลข port:  3306 <ไม่แน่ใจ>
-
   /* 
     === Test Data ===   
       -> host                                     <output เมื่อใช้ port 3306>
@@ -20,18 +13,16 @@ class Mysql{
           - 8000
           - 8080
           - 3306  <default MySQL port number>
-
   */
 
-  Mysql();
-
+  // ทดลองเชื่อมต่อ Database
   Future<MySqlConnection> getConnection() async {
     var setting = new ConnectionSettings(
-      host: host,
-      port: port,
-      user: user,
-      password: password,
-      db: db
+      host: '10.80.6.161',          // ชื่อ hostname:   ? <ไม่รู้>
+      port: 3306,                   // หมายเลข port:  3306 <ไม่แน่ใจ>
+      user: 'team5',                // ชื่อ username:   team5
+      password: 'team5@2021',       // รหัส password:  team5@2021
+      db: 'team5'                   // ชื่อฐานข้อมูล:     team5
     );
     return await MySqlConnection.connect(setting); // connection called
   }

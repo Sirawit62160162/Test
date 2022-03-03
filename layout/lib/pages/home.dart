@@ -39,15 +39,10 @@ Future getData() async {
   var db = new Mysql();
 
   // connection called
-  db.getConnection().then((conn) { 
-      String sql = 'select * from brs_notice;';
-      print("->");
-
-      conn.query(sql).then((results) {
-        for(var row in results){
-          print("->");
-          print('id: ${row[0]}, topic: ${row[1]}, des: ${row[2]}');
-        }
-      });
+  db.getConnection().then((conn) async { 
+      var results = await conn.query('select * from brs_notice');
+      for (var row in results) {
+        print('${row[0]}');
+      }
   });
 }
