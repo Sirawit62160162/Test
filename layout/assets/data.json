@@ -1,0 +1,29 @@
+[
+    {
+        "title": "What is Computer?",
+        "subtitle": "A computer is a machine or device that performs processes, calculations and operations based on instructions provided by a software or hardware program.",
+        "image_url": "https://cdn.pixabay.com/photo/2021/12/14/09/37/animal-6870176_960_720.jpg",
+        "detail": "อุปกรณ์ทางอิเล็กทรอนิกส์ (electrinic device) ที่มนุษย์ใช้เป็นเครื่องมือช่วยในการจัดการกับข้อมูลที่อาจเป็นได้ ทั้งตัวเลข ตัวอักษร หรือสัญลักษณ์ที่ใช้แทนความหมายในสิ่งต่าง ๆ โดยคุณสมบัติที่สำคัญของคอมพิวเตอร์คือการที่สามารถกำหนดชุดคำสั่งล่วงหน้าหรือโปรแกรมได้ (programmable) นั่นคือคอมพิวเตอร์สามารถทำงานได้หลากหลายรูปแบบ ขึ้นอยู่กับชุดคำสั่งที่เลือกมาใช้งาน ทำให้สามารถนำคอมพิวเตอร์ไปประยุกต์ใช้งานได้อย่างกว้างขวาง"
+    },
+
+    {
+        "title": "What is Programming?",
+        "subtitle": "Programming is the implementation of logic to facilitate specified computing operations and functionality. It occurs in one or more languages, which differ by application, domain and programming model.",
+        "image_url": "https://cdn.pixabay.com/photo/2018/10/01/09/21/pets-3715733_960_720.jpg",
+        "detail": "การเขียนหรือสร้างคำสั่งให้คอมพิวเตอร์ทำงานให้ได้ตามที่ต้องการ ด้วยภาษาที่คอมพิวเตอร์เข้าใจ (สามารถแปลได้) ในการเขียนโปรแกรมนี้ ผู้เขียนจะต้องเข้าใจถึงขั้นตอนการแก้ปัญหา วิธีการแก้ รวมทั้ง ศัพท์และไวยากรณ์ ตลอดจนกฎเกณฑ์ของภาษาที่เลือกใช้\n\nข้อดีกับทีม\n\nส่งเสริมการทำงานร่วมกันในทีม\n\nถ่ายทอดความรู้อย่างรวดเร็ว ให้ทุกๆ คนในทีม\n\nทำให้สามารถมองเห็นปัญหา หรือสิ่งที่ทำงานร่วมกันอยู่ได้จากหลายมุมมอง ซึ่งอาจนำไปสู่วิธีการแก้ปัญหาที่ดีขึ้นได้\n\nเพิ่มทักษะของคนในทีมดีขึ้น ไปพร้อมๆ กัน\n\n"
+    },
+
+    {
+        "title": "What is Programmer?",
+        "subtitle": "A programmer is an individual that writes/creates computer software or applications by giving the computer specific programming instructions.",
+        "image_url": "https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262_960_720.jpg",
+        "detail": "โปรแกรมเมอร์ อาจเรียกว่านักเขียนโปรแกรมหรือนักพัฒนาซอฟแวร์ มีหน้าที่หลักคือการเขียนโปรแกรมคอมพิวเตอร์โดยใช้ภาษาทางโปรแกรมคอมพิวเตอร์ ในการสั่งการให้คอมพิวเตอร์ทำตามที่เราต้องการ ซึ่งในยุคปัจจุบันนี้โปรแกรมเมอร์ ยังคงเป็นอาชีพที่ต้องการสูงของตลาดแรงงาน ไม่ว่าจะในไทยหรือต่างประเทศ เพราะธุรกิจที่เกี่ยวข้องกับไอทีและดิจิทัล มีแนวโน้มเพิ่มสูงขึ้นเรื่อยๆ"
+    },
+
+    {
+        "title": "What is Programming Language?",
+        "subtitle": "A programming language is a formal language comprising a set of strings that produce various kinds of machine code output. Programming languages are one kind of computer language, and are used in computer programming to implement algorithms.",
+        "image_url": "https://cdn.pixabay.com/photo/2021/12/26/19/36/christmas-tree-6895765_960_720.jpg",
+        "detail": "ภาษาโปรแกรม คือภาษาประดิษฐ์ชนิดหนึ่งที่ออกแบบขึ้นมาเพื่อสื่อสารชุดคำสั่งแก่เครื่องจักร โดยเฉพาะอย่างยิ่งคอมพิวเตอร์ ภาษาโปรแกรมสามารถใช้สร้างโปรแกรมที่ควบคุมพฤติกรรมของเครื่องจักร และ/หรือ แสดงออกด้วยขั้นตอนวิธี (algorithm) อย่างตรงไปตรงมา ผู้เขียนโปรแกรมซึ่งหมายถึงผู้ที่ใช้ภาษาโปรแกรมเรียกว่า โปรแกรมเมอร์"
+    }
+]
